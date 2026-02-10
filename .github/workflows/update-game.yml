@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: czl9707/gh-space-shooter@v1
+      - uses: qb20nh/gh-space-shooter@codex/investigate-webp-compression-efficiency
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: 'game.webp'
